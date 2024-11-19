@@ -7,14 +7,14 @@ import joblib
 model=joblib.load('linear_regression_model.pk')
 
 # 2. 모델 설명
-st.title('
-st.subheader('
-st.write('
-st.write('
-st.write('
-st.write('
-st.write('
-st.write('
+st.title('보스턴 집값 예측 모델')
+st.subheader('보스턴 집값, 빵 터질까? 뚝딱 예측 놀이!')
+st.write('모델설명')
+st.write('-기계학습 알고리즘: 선형회귀')
+st.write('-학습데이터 출처: kaggle')
+st.write('-훈련데이터: 3188건')
+st.write('-테스트데이터: 1366건')
+st.write('***독립 변수 중 하나인 b항목이 인종차별적 내용을 포함하고 있습니다.')
 # 3. 데이터시각화
 col1, col2, col3=st.columns(3)
 with col1:
