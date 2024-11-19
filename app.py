@@ -19,13 +19,13 @@ st.write('
 col1, col2, col3=st.columns(3)
 with col1:
          st.subheader('데이터시각화1')
-         st.image('             
+         st.image('시각화_1_스캐터_b (1).PNG')             
 with col2:
          st.subheader('데이터시각화2')
-         st.image('             
+         st.image('시각화_1_스캐터_b (2).PNG')             
 with col3:
          st.subheader('데이터시각화3')
-         st.image('             
+         st.image('시각화_1_스캐터_b.PNG')             
 
 # 4. 모델 활용
 st.subheader('모델활용')
