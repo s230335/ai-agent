@@ -4,7 +4,7 @@ import streamlit as st
 
 # 1. 기계학습 모델 파일 로드
 import joblib
-model=joblib.load('linear_regression_model.pk')
+model=joblib.load('linear_regression_model.pkl')
 
 # 2. 모델 설명
 st.title('보스턴 집값 예측 모델')
@@ -19,7 +19,7 @@ st.write('***독립 변수 중 하나인 b항목이 인종차별적 내용을 �
 col1, col2, col3=st.columns(3)
 with col1:
          st.subheader('데이터시각화1')
-         st.image('시각화_1_스캐터_b (1).PNG')             
+         st.image('____1_____b.PNG')             
 with col2:
          st.subheader('데이터시각화2')
          st.image('시각화_1_스캐터_b (2).PNG')             
