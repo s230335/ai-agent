@@ -43,5 +43,5 @@ i=st.number_input('모집단의 하위계층 비율 입력',value=0)
 if st.button('예측하기'):
          input_data=[[a,b,c,d,e,f,g,h,i]]
          p=model.predict(input_data)
-         st.write('인공지능의 예측결과는',p,'$입니다.(단위:1000$)')
+         st.write('인공지능의 예측결과는',p,'$입니다. 단위:1000$')
 
