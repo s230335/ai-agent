@@ -30,7 +30,7 @@ with col3:
 # 4. 모델 활용
 st.subheader('모델활용')
 
-a=st.number_input('범죄율 입력',value=0)
+a=st.number_input('범죄율 입력',value=0.00)
 b=st.number_input('비소매상업지역 토지점유율 입력',value=0.00)
 c=st.number_input('주택 1가구당 방 개수 입력',value=0.00)
 d=st.number_input('1940이전 주택 소유 비율 입력',value=0.00)
