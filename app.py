@@ -22,7 +22,7 @@ with col1:
          st.image('____1_____b.PNG')             
 with col2:
          st.subheader('데이터시각화2')
-         st.image('시각화_2_히트맵.png')             
+         st.image('시각화_1_스캐터.png')             
 with col3:
          st.subheader('데이터시각화3')
          st.image('시각화_2_히트맵.png')             
