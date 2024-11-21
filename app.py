@@ -35,7 +35,7 @@ b=st.number_input('비소매상업지역 토지점유율 입력',value=0)
 c=st.number_input('주택 1가구당 방 개수 입력',value=0)
 d=st.number_input('1940이전 주택 소유 비율 입력',value=0)
 e=st.number_input('보스턴 직업 센터 접근성 지수 입력',value=0)
-f=st.number_input('10000$달러 당 재산세율 입력',value=0)
+f=st.number_input('10000달러 당 재산세율 입력',value=0)
 g=st.number_input('자치 시별 학생 교사 비율 입력',value=0)
 h=st.number_input('지역 흑인 비율 입력',value=0)
 i=st.number_input('모집단의 하위계층 비율 입력',value=0)
@@ -43,5 +43,5 @@ i=st.number_input('모집단의 하위계층 비율 입력',value=0)
 if st.button('예측하기'):
          input_data=[[a,b,c,d,e,f,g,h,i]]
          p=model.predict(input_data)
-         st.write('인공지능의 예측결과는',p,'$입니다. 단위:1000$')
+         st.write('인공지능의 예측결과는',p,'$입니다. 단위:1000달러')
 
