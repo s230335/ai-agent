@@ -25,7 +25,7 @@ with col2:
          st.image('시각화_2_히트맵.png')             
 with col3:
          st.subheader('데이터시각화3')
-         st.image('시각화_1_스캐터_b.PNG')             
+         st.image('시각화_2_히트맵.png')             
 
 # 4. 모델 활용
 st.subheader('모델활용')
